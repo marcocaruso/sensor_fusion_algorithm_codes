@@ -9,3 +9,5 @@ This repository contains the following folders and script.
 - SFA: open MATLAB function of each sensor fusion algorithm;
 - Optimization codes: function to compute the absolute orientation errors for each unit. The orientation is computed with all the combination of parameters given as input;
 - function_utilities: includes some MATLAB functions helpful for the algorithms.
+
+[![View orientation_estimation_sensor_fusion_algorithm_codes on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/90351-orientation_estimation_sensor_fusion_algorithm_codes)
