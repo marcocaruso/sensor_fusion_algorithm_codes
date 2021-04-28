@@ -1,0 +1,1 @@
+When using these codes, please cite: M. Caruso, A. M. Sabatini, D. Laidig, T. Seel, M. Knaflitz, U. Della Croce, and A. Cereatti, “Analysis of the Accuracy of Ten Algorithms for Orientation Estimation Using Inertial and Magnetic Sensing under Optimal Conditions: One Size Does Not Fit All,” Sensors, vol. 21, no. 7, p. 2543, Apr. 2021. https://www.mdpi.com/1424-8220/21/7/2543
