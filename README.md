@@ -12,6 +12,5 @@ This repository contains the following folders and script.
 
 [![View orientation_estimation_sensor_fusion_algorithm_codes on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/90351-orientation_estimation_sensor_fusion_algorithm_codes)
 
-When using this dataset, please cite:
-M. Caruso, A. M. Sabatini, D. Laidig, T. Seel, M. Knaflitz, U. Della Croce, and A. Cereatti, “Analysis of the Accuracy of Ten Algorithms for Orientation Estimation Using Inertial and Magnetic Sensing under Optimal Conditions: One Size Does Not Fit All,” Sensors, vol. 21, no. 7, p. 2543, Apr. 2021.
-https://www.mdpi.com/1424-8220/21/7/2543
+When using these codes, please cite:
+M. Caruso, A. M. Sabatini, D. Laidig, T. Seel, M. Knaflitz, U. Della Croce, and A. Cereatti, “Analysis of the Accuracy of Ten Algorithms for Orientation Estimation Using Inertial and Magnetic Sensing under Optimal Conditions: One Size Does Not Fit All,” Sensors, vol. 21, no. 7, p. 2543, Apr. 2021. https://www.mdpi.com/1424-8220/21/7/2543
