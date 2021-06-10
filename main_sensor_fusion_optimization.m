@@ -72,6 +72,11 @@ indMov=[indz; indx; indy; indarb];
 
 fs=100; % (Hz) sampling frequency
 
+% Create time vector
+t = (0:1/fs:(size(s1,1)-1)/fs)';
+
+s1(:,1) = t;
+s2(:,1) = t;
 %% Stereophotogrammetry
 % Refer the ground-truth orientatin to the first frame
 q0  = quatconj(repmat(Qs(1,:),size(Qs,1),1));
