@@ -2,6 +2,7 @@ function [quaternion] = GUO(XX, stdGyro, stdAcc, stdMag, qin)
 %Fast Kalman Filter for Attitude Estimation (S. Guo, J. Wu, Z. Wang, and J.Qian, “Novel MARG-Sensor Orientation Estimation Algorithm Using Fast Kalman Filter,” J. Sensors, vol. 2017, 2017, doi: 10.1155/2017/8542153)
 
 % --------------- INPUT ---------------
+% XX             = (:,1) time vector (seconds)
 % XX             = (:,2:4) Accelerometer (m/s^2), (:,5:7) Gyroscope (rad/s), (:,8:10) Magnetometer (a.u.) normalized units
 % stdAcc         = 1x1 (m/s^2) inverse weight to assign to the accelerometer measurements
 % stdGyro        = 1x1 (rad/s) inverse weight to assign to the gyroscope measurements
@@ -36,7 +37,7 @@ else
     q = [1;0;0;0];
 end
 
-dt = 1/100;
+dt = mean(diff(XX(:,1)));
 len=length(Accelerometer(:,1));
 quaternion=zeros(len,4);
 
